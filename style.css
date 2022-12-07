@@ -1,0 +1,22 @@
+html,
+body {
+  text-align: center;
+}
+
+.cell-bordered {
+  border: 1px solid black;
+  margin-left: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+  padding: 10px;
+}
+.grid-item {
+  border: 7px solid limegreen;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
